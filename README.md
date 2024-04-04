@@ -23,7 +23,7 @@ Stride wheel | wheelofnames
 https://wheelofnames.com/7fb-xbt
 
 Stride Threats Complete List version |  Adamshostack
-https://github.com/adamshostack/eop/blob/master/EoP_Card%20Game%20Images.pdf
+https://github.com/adamshostack/eop/blob/master/cards.yaml
 
 
 
