@@ -16,7 +16,7 @@ https://app.diagrams.net/
 # ACTIVITY 3 Threat Modeling: 
 
 Stride wheel | wheelofnames
-https://wheelofnames.com/7fb-xbt
+https://wheelofnames.com/p57-ktd
 
 Stride Threats Complete List version |  Adamshostack
 https://github.com/adamshostack/eop/blob/master/cards.yaml
