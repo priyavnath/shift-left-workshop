@@ -7,10 +7,9 @@ import java.net.URL;
 public class Download {
 
    public static void main(String[] args) throws Exception {
-        OutputStream outputStream = null;
-        InputStream inputStream = null;
+         
 
-       try{
+      
            // Define the file name for your downloaded file and the website from where you download
            String fileName = "my_cat.jpg";
            String website = "http://catalogue.com/images/"+fileName;
@@ -19,13 +18,14 @@ public class Download {
            System.out.println("Downloading File From: " + website);
 
            //create a java URL object of the website
-           URL url = new URL(website);
-           //Open an input stream to the website to download
-           InputStream inputStream = url.openStream();
-           //create an output stream with your desired file name
-           OutputStream outputStream = new FileOutputStream(fileName);
-           byte[] buffer = new byte[2048];
+             URL url = new URL(website);
+        InputStream inputStream = url.openStream();
 
+           //create an output stream with your desired file name
+        OutputStream outputStream = new FileOutputStream(fileName);
+
+           byte[] buffer = new byte[2048];
+ try{
            int length = 0;
 
            while ((length = inputStream.read(buffer)) != -1) {
