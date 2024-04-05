@@ -1,22 +1,19 @@
 
-#Useful Links#
+# Useful Links
 
 You may find the following links and information useful for completing the workshop’s activities. 
 
-GitHub link for files
-https://github.com/priyavnath/shift-left-workshop
-
-ACTIVITY 1 SSDLC/ DevSecOps:
+# ACTIVITY 1 SSDLC/ DevSecOps:
 
 OWASP/DevSecOpsGuideline
 https://github.com/OWASP/DevSecOpsGuideline/blob/master/documents/0-Intro/0-2-Overview.md
 
-ACTIVITY 2 Data Flow Diagram: 
+# ACTIVITY 2 Data Flow Diagram: 
 
 draw.io - free flowchart maker and diagrams online
 https://app.diagrams.net/
 
-ACTIVITY 3 Threat Modeling: 
+# ACTIVITY 3 Threat Modeling: 
 
 Stride wheel | wheelofnames
 https://wheelofnames.com/7fb-xbt
@@ -24,19 +21,17 @@ https://wheelofnames.com/7fb-xbt
 Stride Threats Complete List version |  Adamshostack
 https://github.com/adamshostack/eop/blob/master/cards.yaml
 
-
-
-ACTIVITY 4 Risk Assessment: 
+# ACTIVITY 4 Risk Assessment: 
 
 OWASP Risk Assessment Calculator  | Developed by Javier Olmedo
 https://javierolmedo.github.io/OWASP-Calculator/
 
-ACTIVITY 5 Static Analysis Tool: 
+# ACTIVITY 5 Static Analysis Tool: 
 
 Snyk Code Checker 
 https://snyk.io/code-checker/
 
-Additional References: 
+# Additional References: 
 
 STRIDE Threat & Mitigation Techniques| OWASP Threat Modeling Process | Author: Larry Conklin
 https://owasp.org/www-community/Threat_Modeling_Process#stride-threat--mitigation-techniques
