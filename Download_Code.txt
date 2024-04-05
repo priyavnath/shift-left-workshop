@@ -7,6 +7,8 @@ import java.net.URL;
 public class Download {
 
    public static void main(String[] args) throws Exception {
+        OutputStream outputStream = null;
+        InputStream inputStream = null;
 
        try{
            // Define the file name for your downloaded file and the website from where you download
