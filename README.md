@@ -1,6 +1,5 @@
-# shift-left-workshop
-Useful Links
 
+#Useful Links#
 
 You may find the following links and information useful for completing the workshop’s activities. 
 
