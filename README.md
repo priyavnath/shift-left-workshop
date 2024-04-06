@@ -1,5 +1,5 @@
 
-# Useful Links
+# README
 
 You may find the following links and information useful for completing the workshop’s activities. 
 
