@@ -1,42 +1,29 @@
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-
 import java.net.URL;
 
 public class Download {
+    public static void main(String[] args) throws Exception {
+        String fileName = "my_cat.jpg";
+        String website = "http://catalogue.com/images/" + fileName;
 
-   public static void main(String[] args) throws Exception {
-         
-
-      
-           // Define the file name for your downloaded file and the website from where you download
-           String fileName = "my_cat.jpg";
-           String website = "http://catalogue.com/images/"+fileName;
-
-           // print the website in logs
-           System.out.println("Downloading File From: " + website);
-
-           //create a java URL object of the website
-             URL url = new URL(website);
-        InputStream inputStream = url.openStream();
-
-           //create an output stream with your desired file name
-        OutputStream outputStream = new FileOutputStream(fileName);
-
-           byte[] buffer = new byte[2048];
- try{
-           int length = 0;
-
-           while ((length = inputStream.read(buffer)) != -1) {
-               System.out.println("Buffer Read of length: " + length);
-               //write the content from buffer to the output stream
-               outputStream.write(buffer, 0, length);
-           }
-           outputStream.close();
-
-       } catch(Exception e) {
-           System.out.println("Exception: " + e.getMessage());
-       }
-   }
+        // print the website in logs
+        System.out.println("Downloading File From: " + website);
+        try{
+            //opens input stream to read from the website
+            InputStream inputStream = new URL(website).openStream();
+            //opens output stream to a file
+            OutputStream outputStream = new FileOutputStream(fileName);
+            byte[] buffer = new byte[2048];
+            int length = 0;
+            while ((length = inputStream.read(buffer)) != -1) {
+                System.out.println("Buffer Read of length: " + length);
+                outputStream.write(buffer, 0, length);
+            }
+            outputStream.close();
+        } catch (Exception e) {
+            System.out.println("Exception: " + e.getMessage());
+        }
+    }
 }
