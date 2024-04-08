@@ -37,6 +37,10 @@ https://snyk.io/code-checker/
 STRIDE Threat & Mitigation Techniques| OWASP Threat Modeling Process | Author: Larry Conklin
 https://owasp.org/www-community/Threat_Modeling_Process#stride-threat--mitigation-techniques
 
+Secure Coding Practices : https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
+
+Security Principles: https://owasp.org/www-project-developer-guide/draft/foundations/security_principles/
+
 List of Static Analysis Tools https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
 
 List of Dynamic Analysis Tools
