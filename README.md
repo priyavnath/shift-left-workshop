@@ -19,7 +19,7 @@ https://app.diagrams.net/
 Stride wheel | wheelofnames
 https://wheelofnames.com/p57-ktd
 
-Stride Threats Complete List version |  Adamshostack
+Stride Threats Complete List version |  Adamshostack<sup>1</sup>
 https://github.com/adamshostack/eop/blob/master/cards.yaml
 
 # ACTIVITY 4 Risk Assessment: 
@@ -29,7 +29,7 @@ https://javierolmedo.github.io/OWASP-Calculator/
 
 # ACTIVITY 5 Static Analysis Tool: 
 
-Snyk Code Checker 
+Snyk Code Checker<sup>2</sup> 
 https://snyk.io/code-checker/
 
 # Additional References: 
@@ -46,4 +46,7 @@ List of Static Analysis Tools https://en.wikipedia.org/wiki/List_of_tools_for_st
 List of Dynamic Analysis Tools
 https://github.com/analysis-tools-dev/dynamic-analysis
 
+# Appendix
+1 Source : https://github.com/adamshostack/eop
 
+2 The use and mention of snyk in this presentation/ document is solely for educational purposes and does not imply endorsement by the content creators or their affiliations, nor discrimination against similar brands, products or services not mentioned.
